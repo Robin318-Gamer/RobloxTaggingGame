@@ -81,8 +81,8 @@ GameConfig.UI = {
 -- Development/Debug Settings
 GameConfig.Debug = {
     Enabled = true,
-    ShowPlayerPositions = false,
-    QuickStart = false,  -- Skip waiting for minimum players in testing
+    ShowPlayerPositions = true,  -- Enable for testing
+    QuickStart = true,  -- Skip waiting for minimum players in testing
     ShowMapGeneration = true
 }
 
